@@ -13,7 +13,7 @@ word = 'это питон'
 '''Сдвиг'''
 shift = 2
 
-'''Сммещаем на shift символов'''
+'''Смещаем на shift символов'''
 crypt_word = [alphabet[(alphabet.index(let) + shift) % len(alphabet)]
               if let in alphabet else ' ' for let in word]
 
